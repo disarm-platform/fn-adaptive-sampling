@@ -4,7 +4,7 @@
 
 To build, you will need to first clone the relevant template. 
 
-`faas template pull https://github.com/locational/faas-templates.git --overwrite`
+`faas template pull https://github.com/disarm-platform/faas-templates.git --overwrite`
 
 You can then use `faas build` to create a local version.
 
