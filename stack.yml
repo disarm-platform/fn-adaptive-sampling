@@ -5,7 +5,7 @@ functions:
   fn-adaptive-sampling:
     lang: r-geospatial
     handler: ./fn-adaptive-sampling
-    image: disarm/fn-adaptive-sampling:0.3.0
+    image: disarm/fn-adaptive-sampling:0.3.1
     environment:
       exec_timeout: 60
       write_timeout: 70
