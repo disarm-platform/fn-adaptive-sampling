@@ -1,2 +1,8 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+
+build
+template
+stack.yml
+test_req.json
+SPECS.md
