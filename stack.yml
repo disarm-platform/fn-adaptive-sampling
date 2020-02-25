@@ -4,7 +4,7 @@ provider:
 functions:
   fn-adaptive-sampling:
     lang: r-geospatial
-    handler: ./fn-adaptive-sampling
+    handler: ./R
     image: disarm/fn-adaptive-sampling:0.3.1
     environment:
       exec_timeout: 60
@@ -13,5 +13,4 @@ functions:
       combine_output: false
       # write_debug: true
     labels:
-      com.openfaas.scale.zero: true
       com.openfaas.scale.zero: true
